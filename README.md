@@ -2,7 +2,7 @@
 
 <h3 align="left"> End-to-End NLP pipeline for topics classification using deep learning ( LSTM ).</h3>
 
-<h3 align="left">Tools & Libraries 🛒:</h3>
+<h3 align="left">Tools & Libraries :</h3>
 
 - jupyter Notebook (python 3).
 - BeautifulSoup for web scraping.
