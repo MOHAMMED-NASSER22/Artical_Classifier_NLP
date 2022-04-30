@@ -16,12 +16,12 @@
 
 2. **Data Source** : In my case, I've decided to use web scapping to create my own dataset which meets my needs, I've targeted a website of a famous Egyptian news newspaper, and I collected from it using Python code all the data needed to train the model so that each category had 10,000 texts to be trained on, with a total dataset of 30,000 rows.
 
-3. **Data Cleaning** ✂: At the first of this process, we have 3 csv files each is about 10000 records.
+3. **Data Cleaning** : At the first of this process, we have 3 csv files each is about 10000 records.
 - Concat them into one csv file.
 - Drop duplicates if found.
 - Remove spaces in the text.
 
-4. **Data Preprocessing** 🔧 : In this step, I have important processes to apply to my dataframe to be ready as an input for the model.
+4. **Data Preprocessing**  : In this step, I have important processes to apply to my dataframe to be ready as an input for the model.
 - Remove punctuation
 - Convert all texts to be in lower case.
 - Use nltk.tokenize for sentences tokenization.
@@ -30,8 +30,8 @@
 - Apply Lemmatization to the texts.
 - Save the final processed dataframe to be used in the next step of Model Training.
 
-5. **Model Training** 🏃‍♂️: The data was good enough to be fitted on the used models and the results was greatly satisfying specially whith deep learning model (LSTM) than classical ML using ( Logistic Regression & Naive Bayes ).
+5. **Model Training** : The data was good enough to be fitted on the used models and the results was greatly satisfying specially whith deep learning model (LSTM) than classical ML using ( Logistic Regression & Naive Bayes ).
 
-6. **Project Deployment** 🎨: I used flask which is easy to use and give you the advantage of deploying your project as a web service.
+6. **Project Deployment** : I used flask which is easy to use and give you the advantage of deploying your project as a web service.
 
 
